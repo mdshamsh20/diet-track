@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding-top: 0;
+}
+
+.container[id="basic-info"] {
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#columns {
+    width: 100%;
+}
+
+#colum1 {
+    background-color: #E8F5F1;
+    min-width: 30%;
+    max-width: 30%;
+}
+
+
+img {
+    margin-top: 10px;
+    height: 15vh;
+    width: 15vh;
+    padding: 5px;
+    border: 20px  black;
+    border-radius: 5px;
+}
+
+#nutri-info-row2 .col-md-4 {
+    min-width: 40%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #E8F5F1;
+    border-radius: 20px;
+}
+
+
+
+/*
+Edit font styles
+*/
+
+.gr {
+    color: #20C389;
+    font-size: large;
+    font-style:inherit;
+}
+
+
+
+/*Start edit colum2*/
+#colum2 {
+    min-width: 70%;
+    max-width: 70%;
+}
+
+
+
+/*Edit chart container*/
+
+#myPieChart {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+/**/
+
+#nutritional-info {
+    background-color: #E8F5F1;
+    border-radius: 5px;
+    color: white;
+    padding: 4%;
+    height: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+#colum2 .col-md-5{
+    height: auto;
+    max-width: 32%;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+div[class="container nutrient"] {
+    background: linear-gradient(to top right, black, #023b27);
+    gap: 5px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    height: 30%;
+}
+
+
+div[class="container receipes"] {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+div[class="container receipes-list"] {
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow-y: auto;
+    max-height: 300px;
+    min-height: 300px;
+    overflow: auto;
+}
+
+
+div[class="col-md-6 receipes1"] {
+    min-width: 20%;
+    max-width: 20%;
+    height: 100%;
+    display: flex;
+    padding: 0;
+}
+
+div[class="col-md-6 receipes1"] img {
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+div[class="col-md-6 receipes2"] {
+    margin-top: 1%;
+    border-radius: 5px;
+    min-width: 80%;
+    max-width: 80%;
+    text-align: left;
+    height: 100%;
+    display: -webkit-box; /* Required for Safari */
+  -webkit-line-clamp: 2; /* Limit the text to two lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add an ellipsis (...) for overflow text */
+}
+
