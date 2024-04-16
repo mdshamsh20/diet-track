@@ -1,6 +1,5 @@
 # Diet Creator
 
-![License](https://img.shields.io/github/license/ORobsonJr/diet_creator)
 
 Diet Creator is a simple tool designed to assist users in their nutritional needs by providing some data and receipes.
 
